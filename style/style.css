@@ -196,6 +196,8 @@
   justify-content: center;
   padding: 20px;
   border-radius: 47px;
+  height: 600px;
+  background-color: #FFFFFF;
  }
  .story-1>.title{
   font-size: 24px;
@@ -231,18 +233,59 @@
   color: black;
   justify-content: center;
   padding: 10px;
-}
 
+}
+.common-s{
+  height: 300px;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+}
 .stories{
   display: grid;
   grid-template-columns: repeat(2,1fr);
+  gap: 20px;
   
 }
+.b2{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+/* footer section  */
+footer{
+  background-color: rgba(1, 172, 253, 1);
+  display: flex;
+  justify-content: space-evenly;
+  height: 450px;
+  padding-top: 120px;
+ 
+}
+.kids-education{
+  width: 400px;
+}
+.title-container{
+    display: flex;
+    height: 80px;
+    gap: 20px;
+  }
 
+footer>.kids-education>.des{
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: normal;
+  margin-top: 25px;
   
-
-
-
+}
+.about{
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: bold;
+  list-style: none;
+ 
+}
+.about>li{
+  margin: 10px;
+}
 
 
 
