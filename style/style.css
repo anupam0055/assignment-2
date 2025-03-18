@@ -325,4 +325,7 @@ footer>.kids-education>.des{
    .arrows{
     display: none;
    }
+   .footer{
+    flex-direction: column;
+   }
   }
